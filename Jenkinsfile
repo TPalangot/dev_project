@@ -8,7 +8,7 @@ pipeline{
 		}
 		stage('docker container'){
 			steps{
-				sh 'docker run -d -p 9090:9090 springapp"
+				sh 'docker run -d -p 9090:9090 springapp'
 			}
 		}
 	}
